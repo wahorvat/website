@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" class="no-js">
+  <head>
+    <!-- Generic metadata for search engines-->
+    <meta charset="utf-8">
+    <title>Peptide chemical tagging</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=".. ">
+    <meta name="image" content="http://localhost:4000/images/logos/750px-All-firefox-logos.png">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/images/favicons/favicon-196x196.png">
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+
+
+    <link rel="alternate" type="application/rss+xml" title=" - Feed" href="/feed.xml">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/wahorvat/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" id="frontierline-css" href="/wahorvat/themes/frontierline-rm/style.css" type="text/css" media="all" />
+
+  </head>
+
+  <body class="post-template-default single single-post single-format-standard color-scheme-none pattern-none">
+    <nav id="nav-global" class="nav-global can-stick">
+
+    <div class="content">
+      <div class="logo"><a href="https://wahorvat.gitlab.io/wahorvat/" rel="external" title="">William Horvat</a></div>
+
+      <div class="nav-mozilla">
+        <span class="toggle" role="button" aria-controls="nav-mozilla-menu" aria-expanded="false" tabindex="0">Menu</span>
+        <ul class="nav-mozilla-menu" id="nav-mozilla-menu">
+          <li class="nav-global-general"><a href="about" rel="external">About</a></li>
+          <li class="nav-global-github"><a href="https://github.com/wahorvat" rel="external">GitHub</a></li>
+          <li class="nav-global-kaggle"><a href="https://www.kaggle.com/wahorvat" rel="external">Kaggle</a></li>
+          <li class="nav-global-linkedin"><a href="https://www.linkedin.com/in/williamhorvat/" rel="external">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <a class="page-top" href="#masthead" title="Go to the top of the page">Top</a>
+    </div>
+  </nav>
+
+  <header id="masthead" class="section">
+    <div class="site-id">
+      <div class="site-title-wrap content">
+        <!--
+        <a href="/"><h1 id="site-title"><span>.</span></h1></a>
+        
+              <p id="site-description"><span>.</span></p>
+                </div>-->
+    </div>
+    </div>
+  </header>
+  <div class="site-wrap">
+
+  <nav id="nav-util" class="can-stick ">
+    <ul class="content">
+  <li>
+  </li>
+    </ul>
+  </nav>
+
+    <main id="content" role="main">
+
+    
+
+
+<div class="content">
+<article class="post type-post format-standard hentry">
+
+  <header class="entry-header">
+
+    <h1 class="entry-title">Peptide chemical tagging</h1>
+
+      <div class="entry-info">
+
+        <address class="vcard">
+      
+        <a href="" rel="author"></a>
+      
+
+    </address>
+      <time class="date">10 May 2014</time>
+    </div>
+
+  </header>
+  <div class="entry-content">
+  <p>This work was done as my first foray into proper research; the terse details and write-up relate to a conference poster that remains the last material available detailing the work. Thanks for reading and enjoy!</p>
+
+<h3 id="alkylation-chemistry-for-increased-mass-spectrometric-peptide-detection-in-phosphoproteomics">Alkylation Chemistry for Increased Mass Spectrometric Peptide Detection in Phosphoproteomics</h3>
+<p>Current methods to analyze peptide mixtures by high performance liquid chromatography (HPLC) and mass spectrometry (MS) have revolutionized bioanalytical analysis, however, detection of hydrophilic, negatively charged peptides still remains a challenge.</p>
+
+<p>In digested cell lysate samples, LC/MS fails to detect many hydrophilic and negatively charged peptides, especially those that are phosphorylated and glycosylated.  It is important to analyze these modified peptides because post translational modifications regulate cellular functions and deregulation of them results in disease, such as cancer.</p>
+
+<p>To increase peptide detection, we exploed reductive amination chemistry to butylate primary amines on tryptic peptides.</p>
+
+<h3 id="reductive-amination-of-peptides">Reductive amination of peptides</h3>
+<p>Reductive amination was used to chemically label the N-terminus and C-terminal lysines of the studied peptides. The N-terminus of the peptide reacts with butyraldehyde to form a dibutylated amine. The C-terminal lysine reacts with butyraldehyde to form a dibutylated lysine residue. The reductive amination is driven by the presence of excess butyraldehyde and pyridine borane.</p>
+
+<p><img src="https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/alkyl-reaction.png" alt="Alkylation reaction" class="center-image" /></p>
+
+<h3 id="butylation-of-peptide-standards">Butylation of peptide standards</h3>
+<p>Single peptides LIWKGLYEGTGR, SSVSTVPNAAPIR, and SPTYLR were butylated by reductive amination. Each peptide was analyzed on an LCQ Deca XP mass spectrometer by direct infusion nanospray electrospray ionization. Results indicated the peptides were successfully butylated and the efficiency of the complete reaction was 85%-95%.</p>
+
+<p><img src="https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/butylation-peptides.png" alt="Peptide standards" class="center-image" /></p>
+
+<h3 id="butylation-reaction-efficiency">Butylation reaction efficiency</h3>
+<p>Using Thermo Proteome Discoverer software and the SEQUEST algorithm, the MS data for the Bovine Serum Albumin (BSA) and Cytochrome C Equus caballus (Cyt. C) digests were searched against <em>in silico</em> BSA and CytC FASTA sequences, respectively. The degree of match between experimental and theoretical MS spectra were scored with a subsequent XCORR score cut-off used to generate a list of peptide IDs. Reaction efficiency was calculated by ion chromatogram peak intensity of each type of modified form divided by the total of the ion chromatogram intensities.</p>
+
+<p><img src="https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/butyl-peps.png" alt="Peptide standards" class="center-image" /></p>
+
+<h3 id="butylation-of-peptides-in-tryptic-protein-digests">Butylation of peptides in tryptic protein digests</h3>
+<p>Proteins BSA and Cyt. C were trypically digested, and the resulting peptides were butylated by reductive amination. The butylated samples were run on a capillary column packed with MAGIC aqC18 and integrated with a Thermo Velos- Orbitrap mass spectrometer.
+After butylation, the amino acid sequence coverage of BSA doubled. Butylation of the Cyt. C digest resulted in higher spectral counts. The following table illustrates the successful butylation of tryptic peptides by reductive amination.</p>
+
+<p><img src="https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/mod-table.png" alt="Modification table" class="center-image" /></p>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+<p>Thank you to Dr. Gloria Sheynkman and Dr. Brian Frey for their scientific guidance and patience. Funding for this work was provided by NIH grant PO1GM081629.</p>
+
+  </div>
+
+</article>
+</div>
+
+
+      </div>
+    </div>
+</main>
+  </div><!-- /.site-wrap -->
+
+
+
+<footer id="site-info" class="section">
+  <div class="content">
+    <nav class="primary">
+      <p class="license">
+      Design and source code from <a href="https://release.mozilla.org/" rel="external license">Mozilla's Release Management Blog</a>. </br> Artwork by <a href="https://dannyivan.com/" rel="external license">Danny Ivan</a>.
+    </p>
+      <!-- <div class="logo">
+        <div class="logo"><a href="https://wahorvat.gitlab.io/wahorvat/" rel="external" title="">William Horvat</a></div>
+      </div>
+       <section class="mozilla">
+        <h5><a href="https://www.mozilla.org/?utm_source=release.mozilla.org&amp;utm_campaign=footer&amp;utm_medium=referral" data-link-type="footer" data-link-name="Mozilla">Mozilla</a></h5>
+         <ul class="mozilla-links">
+          <li><a href="https://www.mozilla.org/about/?utm_source=release.mozilla.org&amp;utm_campaign=footer&amp;utm_medium=referral" data-link-type="footer" data-link-name="About">About</a></li>
+          <li><a href="https://www.mozilla.org/contact/?utm_source=release.mozilla.org&amp;utm_campaign=footer&amp;utm_medium=referral" data-link-type="footer" data-link-name="Contact Us">Contact Us</a></li>
+          <li><a href="https://donate.mozilla.org/?presets=50,30,20,10&amp;amount=30&amp;currency=usd&amp;utm_source=release.mozilla.org&amp;utm_campaign=footer&amp;utm_medium=referral" class="donate" data-link-type="footer" data-link-name="Donate">Donate</a></li>
+        </ul>
+      </section> -->
+  </div>
+</footer>
+  </body>
+</html>

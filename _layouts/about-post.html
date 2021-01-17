@@ -1,0 +1,16 @@
+---
+layout: default
+bodyclasses: "post-template-default single single-post single-format-standard color-scheme-none pattern-none"
+---
+{{ page.bodyclasses }}
+{% assign author = site.authors[page.author] %}
+
+<div class="content">
+<article class="post type-about-post format-standard hentry">
+
+  <div class="entry-content">
+  {{ content }}
+  </div>
+
+</article>
+</div>

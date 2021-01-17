@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>. </title>
+  <description>.</description>
+  <link>http://localhost:4000</link>
+  <link type="application/atom+xml" href="http://localhost:4000/feed.xml" rel="self"/>
+  <link type="text" href="http://localhost:4000" rel="alternate"/>
+  <updated>2021-01-16T18:27:09-08:00</updated>
+  
+  
+  <entry>
+    <title>Gene clustering and organoids</title>
+    <link href="http://localhost:4000/tooling/codecoverage/2020/02/06/Stem-Pharm.html"/>
+    <updated>2020-02-06T23:00:00-08:00</updated>
+    <id>http://localhost:4000/tooling/codecoverage/2020/02/06/Stem-Pharm</id>
+    <content type="html">&lt;p&gt;No longer interested in the bench jockey life, I welcomed the move to join Stem Pharm as a bioinformatician. This transition provided the impetus to finding my passion for mathematical analysis of deep neural networks and first principle modeling.&lt;/p&gt;
+
+&lt;h3 id=&quot;organoids-for-model-systems&quot;&gt;Organoids for model systems&lt;/h3&gt;
+&lt;p&gt;Hoping to provide a novel, inexpensive, and potentially more accurate, pre-clinical model Stem Pharm developed a functionalized surface chemistry that can support hydrogels with variable mechanical properties. The company hypothesized its hydrogels provided a platform for multicellular organoids to interact with small molecules in a manner akin to live tissue samples. My role was to develop tools to explore their hypothesis by discovering gene sets present in both organoid cells and harvested tissue cells after small molecule perturbation.&lt;/p&gt;
+
+&lt;h3 id=&quot;rna-seq-analysis-and-hierarchical-clustering&quot;&gt;RNA-seq analysis and hierarchical clustering&lt;/h3&gt;
+&lt;p&gt;To the end of validating Stem Pharm’s model system, I developed computational methods for sequencing QC, replicate validation, gene expression statistics and subsequent gene clustering. To discover gene clusters, I developed hierarchical clustering models based on the Euclidean distance between gene expression vectors and the KL divergence between ranked genes sets. Applying the clustering analysis to Stem Pharm’s proof-of-concept study comparing neural tissue and neural organoids in the presence of carcinogens—lead and bromodiphenyl ether—I discovered irregular expression of replication and RNA polymerase gene sets within the treatment conditions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/stem-pharm/dendrites.png&quot; alt=&quot;hierarchical map&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;impact-for-stem-pharm&quot;&gt;Impact for Stem Pharm&lt;/h3&gt;
+&lt;p&gt;The quantitative evidence I provided for Stem Pharm’s technology was foundational to their recently funded NIH Phase II SBIR grant.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Gene circuits</title>
+    <link href="http://localhost:4000/tooling/crashstops/2016/07/06/Gene-circuits.html"/>
+    <updated>2016-07-06T00:00:00-07:00</updated>
+    <id>http://localhost:4000/tooling/crashstops/2016/07/06/Gene-circuits</id>
+    <content type="html">&lt;p&gt;With a handful of molecular biology skills alongside a background in chemistry and physics, I traded UW-Madison for San Francisco hoping to join the bio-based economy, eventually landed at Prospect Bio as their first employee.&lt;/p&gt;
+
+&lt;h3 id=&quot;gene-circuits-for-chemical-identification-and-quantification&quot;&gt;Gene circuits for chemical identification and quantification&lt;/h3&gt;
+&lt;p&gt;Prospect Bio was predicated on building a rapid and inexpensive alternative to traditional analytical methods for chemical identification and quantification. To this end, the company engineered bacteria to respond with high specificity to target compounds, productizing the success of previous academic &lt;a href=&quot;https://www.pnas.org/content/111/28/10143&quot;&gt;work&lt;/a&gt; that led to lignin by-product biosensors.&lt;/p&gt;
+
+&lt;h3 id=&quot;microbialmetagenomic-dna-library&quot;&gt;Microbial/metagenomic DNA library&lt;/h3&gt;
+&lt;p&gt;To exploit nature’s ability to fit elegant solutions to challenging environments, we used
+microbial DNA found in diverse environments (oil fields, highly salinated waters, deep ocean layers)
+as starting points for genetic diversity. For microbial life to sustain life in these challenging environments they must adapt their cellular machinery to cope with the otherwise deadly conditions.
+The adapted genes were inserted into Prospect Bio’s expression vector which contained a fluorescent reporter gene downstream of the microbial DNA, and would generate a measurable fluorescent signal if the microbial DNA was expressed. The complete gene construct was transfected into
+E.coli, the company’s host organism of choice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/gene-circuits/gene-insert.png&quot; alt=&quot;Gene insert&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
+&lt;p&gt;To rapidly assay the metagenomic library, we optimized the E.coli growth and expression timing for 96- and 384-welled plates. Parallelizing biosensor discovery through our plate based approach provided scalability that traditional analytical methods could not offer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/gene-circuits/workflow-sensors.png&quot; alt=&quot;plates on plates&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/gene-circuits/to-plates.png&quot; alt=&quot;To plates&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;industry-partnerships-descending-chronologically-2015-2018&quot;&gt;Industry partnerships (Descending chronologically 2015-2018)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ril.com/&quot;&gt;Reliance Industries&lt;/a&gt; - Prospect Bio developed an isoprene sensor for use with Reliance’s bioreactors to produce petroleum product precursors.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ginkgobioworks.com/&quot;&gt;Ginkgo Bioworks&lt;/a&gt; -
+Gingko Bioworks asked for three small molecule biosensors, two of which were successfully delivered. This &lt;a href=&quot;https://synbiobeta.com/ginkgo-bioworks-prospect-bio-will-collaborate-develop-deploy-biosensors/&quot;&gt;partner project&lt;/a&gt; led to seed funding of nearly $3M.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cbrands.com/&quot;&gt;Constellation Brands&lt;/a&gt; - To combat wine fraud Constellation Brands explored the possibility to rapidly discern wine varietals, and blends of varietals, with biosensors. Measuring heterogenous mixtures proved challenging but eventually possible through panels of biosenors coupled with classification ML analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.progenity.com/&quot;&gt;Progenity&lt;/a&gt; - In an attempt to develop a pre-clinical diagnostic for pre-eclampsia, Progenity partnered with Prospect Bio to identify pre-eclampsia from pre-natal urine samples. Adapting the biosenor panel approach to urine analysis, we developed methods to identify at risk patients with 80% accuracy. Sequence analysis of the panel’s constituent biosenors provided indication to which small molecules elicited responses. These small molecules provided an opportunity to develop traditional diagnostics.&lt;/p&gt;
+
+&lt;p&gt;Prospect Bio’s gene construct contained a Lac-Z reporter inline with the fluorescent reporter. The Lac-Z component was exploited for an enzymatic colorimetric output. This measurement approach is now used at &lt;a href=&quot;https://www.miprobes.de/&quot;&gt;MiProbes&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Peptide chemical tagging</title>
+    <link href="http://localhost:4000/tooling/janitor/2014/05/10/Chemical-tagging.html"/>
+    <updated>2014-05-10T06:00:00-07:00</updated>
+    <id>http://localhost:4000/tooling/janitor/2014/05/10/Chemical-tagging</id>
+    <content type="html">&lt;p&gt;This work was done as my first foray into proper research; the terse details and write-up relate to a conference poster that remains the last material available detailing the work. Thanks for reading and enjoy!&lt;/p&gt;
+
+&lt;h3 id=&quot;alkylation-chemistry-for-increased-mass-spectrometric-peptide-detection-in-phosphoproteomics&quot;&gt;Alkylation Chemistry for Increased Mass Spectrometric Peptide Detection in Phosphoproteomics&lt;/h3&gt;
+&lt;p&gt;Current methods to analyze peptide mixtures by high performance liquid chromatography (HPLC) and mass spectrometry (MS) have revolutionized bioanalytical analysis, however, detection of hydrophilic, negatively charged peptides still remains a challenge.&lt;/p&gt;
+
+&lt;p&gt;In digested cell lysate samples, LC/MS fails to detect many hydrophilic and negatively charged peptides, especially those that are phosphorylated and glycosylated.  It is important to analyze these modified peptides because post translational modifications regulate cellular functions and deregulation of them results in disease, such as cancer.&lt;/p&gt;
+
+&lt;p&gt;To increase peptide detection, we exploed reductive amination chemistry to butylate primary amines on tryptic peptides.&lt;/p&gt;
+
+&lt;h3 id=&quot;reductive-amination-of-peptides&quot;&gt;Reductive amination of peptides&lt;/h3&gt;
+&lt;p&gt;Reductive amination was used to chemically label the N-terminus and C-terminal lysines of the studied peptides. The N-terminus of the peptide reacts with butyraldehyde to form a dibutylated amine. The C-terminal lysine reacts with butyraldehyde to form a dibutylated lysine residue. The reductive amination is driven by the presence of excess butyraldehyde and pyridine borane.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/alkyl-reaction.png&quot; alt=&quot;Alkylation reaction&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;butylation-of-peptide-standards&quot;&gt;Butylation of peptide standards&lt;/h3&gt;
+&lt;p&gt;Single peptides LIWKGLYEGTGR, SSVSTVPNAAPIR, and SPTYLR were butylated by reductive amination. Each peptide was analyzed on an LCQ Deca XP mass spectrometer by direct infusion nanospray electrospray ionization. Results indicated the peptides were successfully butylated and the efficiency of the complete reaction was 85%-95%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/butylation-peptides.png&quot; alt=&quot;Peptide standards&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;butylation-reaction-efficiency&quot;&gt;Butylation reaction efficiency&lt;/h3&gt;
+&lt;p&gt;Using Thermo Proteome Discoverer software and the SEQUEST algorithm, the MS data for the Bovine Serum Albumin (BSA) and Cytochrome C Equus caballus (Cyt. C) digests were searched against &lt;em&gt;in silico&lt;/em&gt; BSA and CytC FASTA sequences, respectively. The degree of match between experimental and theoretical MS spectra were scored with a subsequent XCORR score cut-off used to generate a list of peptide IDs. Reaction efficiency was calculated by ion chromatogram peak intensity of each type of modified form divided by the total of the ion chromatogram intensities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/butyl-peps.png&quot; alt=&quot;Peptide standards&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;butylation-of-peptides-in-tryptic-protein-digests&quot;&gt;Butylation of peptides in tryptic protein digests&lt;/h3&gt;
+&lt;p&gt;Proteins BSA and Cyt. C were trypically digested, and the resulting peptides were butylated by reductive amination. The butylated samples were run on a capillary column packed with MAGIC aqC18 and integrated with a Thermo Velos- Orbitrap mass spectrometer.
+After butylation, the amino acid sequence coverage of BSA doubled. Butylation of the Cyt. C digest resulted in higher spectral counts. The following table illustrates the successful butylation of tryptic peptides by reductive amination.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wahorvat.gitlab.io/wahorvat/images/posts/chemical-tagging/mod-table.png&quot; alt=&quot;Modification table&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgments&quot;&gt;Acknowledgments&lt;/h3&gt;
+&lt;p&gt;Thank you to Dr. Gloria Sheynkman and Dr. Brian Frey for their scientific guidance and patience. Funding for this work was provided by NIH grant PO1GM081629.&lt;/p&gt;
+</content>
+  </entry>
+  
+  
+</feed>

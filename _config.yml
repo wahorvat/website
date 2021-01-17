@@ -1,0 +1,40 @@
+title: .
+description: . #Molecular biologist turned applied scientist. <br> Former synthetic biologist at Prospect Bio
+email:
+url: 'https://wahorvat.gitlab.io'
+baseurl: /wahorvat
+
+
+highlighter: rouge
+
+authors:
+  Prospect Bio:
+    display_name: Prospect Bio
+    gravatar: 1c26d49ffb62a4106644da39c7e6fb4c
+    web: https://angel.co/company/prospectbio
+    img: https://wahorvat.gitlab.io/wahorvat/themes/frontierline/img/fallbacks/circuits.png
+    twitter:
+    github:
+  Stem Pharm:
+    display_name: Stem Pharm
+    gravatar: 84ed8c95500cb33a9a53038bb9e8af0e
+    web: https://stempharm.com/
+    img: https://wahorvat.gitlab.io/wahorvat/themes/frontierline/img/fallbacks/organoids.png
+    twitter:
+    github:
+  UW-Madison:
+    display_name: Smith Group - UW-Madison
+    gravatar: 16d4d4a441724e006b342ac12507caef
+    web: https://smith.chem.wisc.edu/
+    img: https://wahorvat.gitlab.io/wahorvat/themes/frontierline/img/fallbacks/tagged.png
+    github:
+  Kaggle:
+    display_name: Kaggle
+    gravatar: 5aa2e382197a147b42d020b6878f8623
+    web: https://www.kaggle.com/c/jane-street-market-prediction
+    img: https://wahorvat.gitlab.io/wahorvat/themes/frontierline/img/fallbacks/mesh.png
+    twitter:
+    github:
+
+paginate: 12
+excerpt_separator: "<!-- more -->"
