@@ -1,7 +1,7 @@
-### Test Release Blog Locally
+### Test website locally
 
 
-The release blog runs on Jekyll. Jekyll is a Ruby framework, therefore the Ruby language should be installed on your OS.
+This framework runs on Jekyll. Jekyll is a Ruby framework, therefore the Ruby language should be installed on your OS.
 
 Jekyll is often packaged by Linux distributions so the following instructions should work in most cases:
 
