@@ -2,7 +2,7 @@
 layout: post
 title:  "Peptide chemical tagging"
 date:   2014-05-10 13:00:00
-categories: 
+categories:
 author: UW-Madison
 ---
 

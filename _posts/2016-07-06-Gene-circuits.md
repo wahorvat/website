@@ -2,7 +2,7 @@
 layout: post
 title:  "Gene circuits"
 date:   2016-07-06 07:00:00
-categories: 
+categories:
 author: Prospect Bio
 ---
 With a handful of molecular biology skills alongside a background in chemistry and physics, I traded UW-Madison for San Francisco hoping to join the bio-based economy, eventually landed at Prospect Bio as their first employee.

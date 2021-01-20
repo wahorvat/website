@@ -12,7 +12,7 @@ prefix: [1,2,3,4,5,6]
     <article class="post-summary post type-post" >
 
        <header class="entry-header">
-        <a href="{{ site.baseurl }}{{ post.url }}" class="entry-link" title="test" rel="bookmark">
+        <a href="{{ post.url | relative_url }}" class="entry-link" title="test" rel="bookmark">
                   <div class="post-image post-image-large">
                       <img class="wp-post-image" width="600" height="330" src="{{ site.authors[post.author].img }}">
                     </div>

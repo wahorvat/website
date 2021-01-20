@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>. </title>
   <description>.</description>
-  <link>https://william.science/</link>
-  <link type="application/atom+xml" href="https://william.science//feed.xml" rel="self"/>
-  <link type="text" href="https://william.science/" rel="alternate"/>
-  <updated>2021-01-18T14:37:19-08:00</updated>
+  <link>https://wahorvat.gitlab.io</link>
+  <link type="application/atom+xml" href="https://wahorvat.gitlab.io/feed.xml" rel="self"/>
+  <link type="text" href="https://wahorvat.gitlab.io" rel="alternate"/>
+  <updated>2021-01-19T15:22:29-08:00</updated>
   
   
   <entry>
     <title>Gene clustering and organoids</title>
-    <link href="https://william.science//2020/02/06/Stem-Pharm.html"/>
+    <link href="https://wahorvat.gitlab.io/2020/02/06/Stem-Pharm.html"/>
     <updated>2020-02-06T23:00:00-08:00</updated>
-    <id>https://william.science//2020/02/06/Stem-Pharm</id>
+    <id>https://wahorvat.gitlab.io/2020/02/06/Stem-Pharm</id>
     <content type="html">&lt;p&gt;No longer interested in the bench jockey life, I welcomed the move to join Stem Pharm as a bioinformatician. This transition provided the impetus to finding my passion for mathematical analysis of deep neural networks and first principle modeling.&lt;/p&gt;
 
 &lt;h3 id=&quot;organoids-for-model-systems&quot;&gt;Organoids for model systems&lt;/h3&gt;
@@ -32,9 +32,9 @@
   
   <entry>
     <title>Gene circuits</title>
-    <link href="https://william.science//2016/07/06/Gene-circuits.html"/>
+    <link href="https://wahorvat.gitlab.io/2016/07/06/Gene-circuits.html"/>
     <updated>2016-07-06T00:00:00-07:00</updated>
-    <id>https://william.science//2016/07/06/Gene-circuits</id>
+    <id>https://wahorvat.gitlab.io/2016/07/06/Gene-circuits</id>
     <content type="html">&lt;p&gt;With a handful of molecular biology skills alongside a background in chemistry and physics, I traded UW-Madison for San Francisco hoping to join the bio-based economy, eventually landed at Prospect Bio as their first employee.&lt;/p&gt;
 
 &lt;h3 id=&quot;gene-circuits-for-chemical-identification-and-quantification&quot;&gt;Gene circuits for chemical identification and quantification&lt;/h3&gt;
@@ -74,9 +74,9 @@ Gingko Bioworks asked for three small molecule biosensors, two of which were suc
   
   <entry>
     <title>Peptide chemical tagging</title>
-    <link href="https://william.science//2014/05/10/Chemical-tagging.html"/>
+    <link href="https://wahorvat.gitlab.io/2014/05/10/Chemical-tagging.html"/>
     <updated>2014-05-10T06:00:00-07:00</updated>
-    <id>https://william.science//2014/05/10/Chemical-tagging</id>
+    <id>https://wahorvat.gitlab.io/2014/05/10/Chemical-tagging</id>
     <content type="html">&lt;p&gt;This work was done as my first foray into proper research; the terse details and write-up relate to a conference poster that remains the last material available detailing the work. Thanks for reading and enjoy!&lt;/p&gt;
 
 &lt;h3 id=&quot;alkylation-chemistry-for-increased-mass-spectrometric-peptide-detection-in-phosphoproteomics&quot;&gt;Alkylation Chemistry for Increased Mass Spectrometric Peptide Detection in Phosphoproteomics&lt;/h3&gt;
