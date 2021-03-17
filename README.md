@@ -1,4 +1,4 @@
-### Portfolio style website based off of [Mozilla's Release Management Blog] (https://release.mozilla.org/)
+### Portfolio style website based off of [Mozilla's Release Management Blog](https://release.mozilla.org/)
 
 
 The release blog runs on Jekyll. Jekyll is a Ruby framework, therefore the Ruby language should be installed on your OS.
